@@ -12,7 +12,7 @@ const LoginSignup = () => {
 
   const login = async () => {
     let dataObj;
-    await fetch('https://mern-backend-djlj.onrender.com', {
+    await fetch('https://mern-backend-djlj.onrender.com/login', {
       method: 'POST',
       headers: {
         Accept:'application/form-data',
@@ -35,7 +35,7 @@ const LoginSignup = () => {
 
   const signup = async () => {
     let dataObj;
-    await fetch('https://mern-backend-djlj.onrender.com', {
+    await fetch('https://mern-backend-djlj.onrender.com/signup', {
       method: 'POST',
       headers: {
         Accept:'application/form-data',
